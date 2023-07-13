@@ -70,7 +70,7 @@ body{
 /* SITE HEADER */
 .site-header {
   padding-top: 48px;
-  margin-bottom: 140px;
+  padding-bottom: 48px;
   background-color: #fff;
   font-weight: 700;
   line-height: normal;
@@ -173,4 +173,37 @@ body{
   font-size: 15px;
   line-height: 22.5px;
   padding: 8px 23px;
+}
+/* MAIN CONTENT */
+.main-content{
+  flex-grow: 1;
+}
+
+/* HERO */
+.hero {
+  padding-top: 92px;
+  padding-bottom: 222px;
+  background-image: url(../img/working_with_computer.svg);
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 475px) top 32px;
+}
+.hero__inner {
+  width: 100%;
+  max-width: 565px;
+}
+.hero__heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 80px;
+  line-height: 90px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  color: var(--text-color-dark);
+}
+.hero__text {
+  margin-top: 0;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  margin-bottom: 40px;
 }
