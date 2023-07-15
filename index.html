@@ -35,13 +35,34 @@
 
 
   <main class="main-content">
-    <div class="hero">
+    <section class="hero">
       <div class="container">
         <div class="hero__inner">
           <h1 class="hero__heading">More than just shorter links</h1>
         <p class="hero__text">Build your brand's recognition and get detailed <br> insights on how your links are performing.</p>
 
         <a class="button" href="#">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="index-url-shortner-features-wrapper">
+      <div class="index-URl-shortner-features-wrapper__url-shortner url-shortner">
+
+        <!-- URl shortner form -->
+        <section class="url-shortner">
+          <div class="container">
+            <h2 class="visually-hidden">URL shortner</h2>
+            <form class="url-shortner__form" action="https://echo.htmlacademy.ru" method="POST">
+              <div class="url-shortner_input-wrapper">
+                <input class="url-shortner__input" type="url" name="url" placeholder="Shorten a link here..." aria-label="URL input" id="" required>
+                <div class="url-shortner-error-msg">Please add a link</div>
+              </div>
+              <button class="url-shortner__button button" type="submit">Shorten It!</button>
+            </form>
+          </div>
+
+        </section>
         </div>
       </div>
     </div>
