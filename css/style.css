@@ -265,6 +265,7 @@ body{
   background-image: url(../img/purple-bgi.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 24px;
 }
 .url-shortner_input-wrapper {
   display: flex;
@@ -303,4 +304,40 @@ body{
   letter-spacing: 0.11px;
   color: var(--error-color);
   font-style: italic;
+}
+
+/* URL-SHORTNER RESULTS */
+.url-shortner__results {
+  list-style: none;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: var(--text-color-dark);
+  padding: 0;
+  margin: 0;
+}
+.url-shortner__result {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 16px 24px 16px 32px;
+}
+.url-shortner__result:not(:last-child){
+  margin-bottom: 16px;
+}
+.url-shortner__mian-link {
+  flex-grow: 1;
+}
+.results__short-link {
+  text-decoration: none;
+  color: var(--light-green);
+  margin-right: 24px;
+}
+.button-smoll-rectangle {
+  font-size: 15px;
+  line-height: normal;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 9px 21px 8px 21px;
 }
