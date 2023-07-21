@@ -2,16 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
-
-  <!-- Stylesheets -->
+  <title>Shortly</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
   <header class="site-header">
     <div class="site-header__container container">
       <a class="site-header__loge logo" href="#" >
@@ -39,15 +35,15 @@
       <div class="container">
         <div class="hero__inner">
           <h1 class="hero__heading">More than just shorter links</h1>
-        <p class="hero__text">Build your brand's recognition and get detailed <br> insights on how your links are performing.</p>
+          <p class="hero__text">Build your brand's recognition and get detailed <br> insights on how your links are performing.</p>
 
-        <a class="button" href="#">Get Started</a>
+          <a class="button" href="#">Get Started</a>
         </div>
       </div>
     </section>
 
     <div class="index-url-shortner-features-wrapper">
-      <div class="index-URl-shortner-features-wrapper__url-shortner url-shortner">
+      <div class="index-URl-shortner-features-wrapper__url-shortner">
 
         <!-- URl shortner form -->
         <section class="url-shortner">
@@ -61,31 +57,74 @@
               <button class="url-shortner__button button" type="submit">Shorten It!</button>
             </form>
 
-              <ul class="url-shortner__results">
-                <li class="url-shortner__result">
-                  <div class="url-shortner__mian-link">https://www.frontendmentor.io</div>
-                  <a class="results__short-link" href="#" target="_blank">https://rel.ink/k4lKyk</a>
-                  <button  class="button button-smoll-rectangle js-short-link-copy" type="button">Copy</button>
-                </li>
-                <li class="url-shortner__result">
-                  <div class="url-shortner__mian-link">https://twitter.com/frontendmentor</div>
-                  <a class="results__short-link" href="#" target="_blank">https://rel.ink/gxOXp9</a>
-                  <button  class="button button-smoll-rectangle js-short-link-copy" type="button">Copy</button>
-                </li>
-                <li class="url-shortner__result">
-                  <div class="url-shortner__mian-link">https://www.linkedin.com/company/frontend-mentor</div>
-                  <a class="results__short-link" href="#" target="_blank">https://rel.ink/gob3X9</a>
-                  <button  class="button button-smoll-rectangle js-short-link-copy " type="button">Copy</button>
-                </li>
-              </ul>
+            <ul class="url-shortner__results">
+              <li class="url-shortner__result">
+                <div class="url-shortner__mian-link">https://www.frontendmentor.io</div>
+                <a class="results__short-link" href="#" target="_blank">https://rel.ink/k4lKyk</a>
+                <button  class="button button-smoll-rectangle js-short-link-copy" type="button">Copy</button>
+              </li>
+              <li class="url-shortner__result">
+                <div class="url-shortner__mian-link">https://twitter.com/frontendmentor</div>
+                <a class="results__short-link" href="#" target="_blank">https://rel.ink/gxOXp9</a>
+                <button  class="button button-smoll-rectangle js-short-link-copy" type="button">Copy</button>
+              </li>
+              <li class="url-shortner__result">
+                <div class="url-shortner__mian-link">https://www.linkedin.com/company/frontend-mentor</div>
+                <a class="results__short-link" href="#" target="_blank">https://rel.ink/gob3X9</a>
+                <button  class="button button-smoll-rectangle js-short-link-copy " type="button">Copy</button>
+              </li>
+            </ul>
           </div>
         </section>
 
-        </div>
       </div>
-    </div>
 
-  </main>
-  <script src="js/main.js"> </script>
+      <!-- INDEX FEATURES -->
+      <section class="index-features">
+        <div class="container">
+          <div class="index-features__top">
+            <h2 class="index-features__headeng">Advanced Statistics</h2>
+
+            <p class="index-features__text">Track how your links are performing across the web with our advanced statistics dashboard.</p>
+          </div>
+
+            <ul class="index-features__list">
+
+              <li class="index-features__item index-feature">
+                  <div class="index-feature_icon-wrapper">
+                    <img class="index-feature__icon" index-feature__icon src="img/icon-line-graph.svg" alt="line graph icon" width="40" height="40">
+                  </div>
+
+                  <h3 class="index-feature__headeng">Brand Recognition</h3>
+                  <p class="index-feature__text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+              </li>
+
+              <li class="index-features__item index-feature">
+                  <div class="index-feature_icon-wrapper">
+                    <img class="index-feature__icon" index-feature__icon src="img/icon-meter.svg" alt="meter" width="40" height="40">
+                  </div>
+                  <h3 class="index-feature__headeng">Detailed Records</h3>
+                  <p class="index-feature__text">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+              </li>
+
+              <li class="index-features__item index-feature">
+                  <div class="index-feature_icon-wrapper">
+                    <img class="index-feature__icon" index-feature__icon src="img/icon-customization.svg" alt="brush and pen icon" width="40" height="40">
+                  </div>
+
+                  <h3 class="index-feature__headeng">Fully Customizable</h3>
+                  <p class="index-feature__text">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+              </li>
+
+            </ul>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+
+</main>
+<script src="js/main.js"> </script>
 </body>
 </html>

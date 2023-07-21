@@ -12,7 +12,7 @@
 /* Fonts */
 @font-face {
   font-family: "Poppins";
-  src: url("../Fonts/") format("woff2"),
+  src: url("../Fonts/Poppins-Medium.woff2") format("woff2"),
       url("../Fonts/Poppins-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
@@ -270,7 +270,7 @@ select:-webkit-autofill:focus {
 
 .index-URl-shortner-features-wrapper__url-shortner{
   margin-top: -84px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 
 }
 /* URL SHORTNER */
@@ -367,4 +367,100 @@ select:-webkit-autofill:focus {
 
 .button-smoll-rectangle-copied{
   background-color: #3A3054;
+}
+
+/* INDEX FEATURES */
+.index-features{
+
+}
+
+.index-features__top {
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.index-features__headeng {
+  color: var(--text-color-dark);
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin: 0;
+  margin-bottom: 18px;
+}
+.index-features__text {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 0.123px;
+}
+
+
+/* INDEX FEATURE LIST */
+.index-features__list {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  list-style: none;
+}
+
+.index-features__list::before{
+  position: absolute;
+  z-index: -0;
+  width: 100%;
+  max-width: 1110px;
+  top: 152px;
+  height: 8px;
+  background-color: var(--light-green);
+  content: "";
+}
+.index-features__item {
+  margin-bottom: 100px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.index-feature:nth-child(2){
+  margin-top: 44px;
+}
+.index-feature:nth-child(3){
+  margin-top: 88px;
+}
+.index-features__item:not(:last-child) {
+  margin-right: 30px;
+}
+.index-feature {
+  position: relative;
+  padding: 77px 32px 40px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.index-feature_icon-wrapper {
+  position: absolute;
+  left: 32px;
+  top: -44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: #3a3054;
+}
+.index-feature__headeng {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 12px;
+  color: var(--text-color-dark);
+}
+.index-feature__text{
+  margin: 0;
 }

@@ -26,8 +26,6 @@ if (elUrlShortner) {
 
             // Copy Short Link To Clipboard
 
-            // console.log(event.target.previousElementSibling.textContent)
-
             navigator.clipboard.writeText(event.target.previousElementSibling.textContent)
 
             // RESET BUTTON AND CLASS AFTER 1 S
