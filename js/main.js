@@ -24,6 +24,12 @@ if (elUrlShortner) {
             // CHANGA BUTTON BGCOLOR
             event.target.classList.add('button-smoll-rectangle-copied')
 
+            // Copy Short Link To Clipboard
+
+            // console.log(event.target.previousElementSibling.textContent)
+
+            navigator.clipboard.writeText(event.target.previousElementSibling.textContent)
+
             // RESET BUTTON AND CLASS AFTER 1 S
             setTimeout(function () {
                 event.target.textContent = ('Copy');
