@@ -72,6 +72,22 @@ body{
 }
 
 
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 3px solid transparent;
+  -webkit-text-fill-color: inherit;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
 
 /* CONTAINER */
 .container{
@@ -195,6 +211,7 @@ body{
   padding: 13px 40px;
   cursor: pointer;
   white-space: nowrap;
+  min-width: 103px;
 }
 .button:hover{
   color: #fff;
@@ -308,6 +325,7 @@ body{
 
 /* URL-SHORTNER RESULTS */
 .url-shortner__results {
+  display: none;
   list-style: none;
   font-size: 20px;
   line-height: 36px;
@@ -315,6 +333,10 @@ body{
   color: var(--text-color-dark);
   padding: 0;
   margin: 0;
+}
+
+.url-shortner__results--open{
+  display: block;
 }
 .url-shortner__result {
   display: flex;
@@ -326,6 +348,7 @@ body{
 .url-shortner__result:not(:last-child){
   margin-bottom: 16px;
 }
+
 .url-shortner__mian-link {
   flex-grow: 1;
 }
@@ -340,4 +363,8 @@ body{
   font-weight: 700;
   border-radius: 5px;
   padding: 9px 21px 8px 21px;
+}
+
+.button-smoll-rectangle-copied{
+  background-color: #3A3054;
 }
