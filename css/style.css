@@ -251,7 +251,6 @@ select:-webkit-autofill:focus {
   font-weight: 700;
   letter-spacing: -2px;
   color: var(--text-color-dark);
-  text-transform: capitalize;
 }
 .hero__text {
   margin-top: 0;
@@ -271,7 +270,7 @@ select:-webkit-autofill:focus {
 
 .index-URl-shortner-features-wrapper__url-shortner{
   margin-top: -84px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 
 }
 /* URL SHORTNER */
@@ -283,7 +282,6 @@ select:-webkit-autofill:focus {
   background-image: url(../img/purple-bgi.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 24px;
 }
 .url-shortner_input-wrapper {
   display: flex;
@@ -334,6 +332,7 @@ select:-webkit-autofill:focus {
   color: var(--text-color-dark);
   padding: 0;
   margin: 0;
+  margin-top: 24px;
 }
 
 .url-shortner__results--open{
@@ -379,7 +378,7 @@ select:-webkit-autofill:focus {
   margin-bottom: 100px;
   text-align: center;
 }
-.index-features__headeng {
+.index-features__heading {
   color: var(--text-color-dark);
   font-size: 40px;
   line-height: 48px;
@@ -419,7 +418,7 @@ select:-webkit-autofill:focus {
   content: "";
 }
 .index-features__item {
-  margin-bottom: 100px;
+  margin-bottom: 120px;
   width: 100%;
   max-width: 350px;
 }
@@ -462,4 +461,34 @@ select:-webkit-autofill:focus {
 }
 .index-feature__text{
   margin: 0;
+}
+
+/* SITE CTA */
+.cta {
+  padding: 57px 285px;
+  background-color: #3A3054;
+  background-image: url(../img/cta.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cta__wrapper {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.cta__heading {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1px;
+  margin: 0;
+  margin-bottom: 32px;
 }
