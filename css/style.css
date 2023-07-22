@@ -251,6 +251,7 @@ select:-webkit-autofill:focus {
   font-weight: 700;
   letter-spacing: -2px;
   color: var(--text-color-dark);
+  text-transform: capitalize;
 }
 .hero__text {
   margin-top: 0;
@@ -370,9 +371,6 @@ select:-webkit-autofill:focus {
 }
 
 /* INDEX FEATURES */
-.index-features{
-
-}
 
 .index-features__top {
   max-width: 540px;
@@ -453,13 +451,14 @@ select:-webkit-autofill:focus {
   border-radius: 50%;
   background-color: #3a3054;
 }
-.index-feature__headeng {
+.index-feature__heading {
   margin: 0;
   font-size: 22px;
   font-weight: 700;
   line-height: normal;
   margin-bottom: 12px;
   color: var(--text-color-dark);
+  text-transform: capitalize;
 }
 .index-feature__text{
   margin: 0;
