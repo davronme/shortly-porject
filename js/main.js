@@ -1,4 +1,4 @@
-const elUrlShortnerForm = document.querySelector('.js-url-shortner__form');
+const elUrlShortnerForm = document.querySelector('.js-url-shortner-form');
 
 const elUrlShortnerResults = document.querySelector('.url-shortner__results');
 
